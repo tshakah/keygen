@@ -98,15 +98,7 @@ pub static SHAKA_LAYOUT: Layout = Layout(
     Layer(KeyMap(['X', 'C', 'L', 'D', 'K',   'V', 'F', 'A', 'U', 'Q',
                   'H', 'S', 'R', 'T', 'B',   'P', 'N', 'O', 'E', 'I',
                   '?', 'M', 'W', 'G', 'Z',   'J', 'Y', '<', '>', ':'])));
-
-pub static SHAKA4_LAYOUT: Layout = Layout(
-    Layer(KeyMap(['z', 'g', 'u', 'd', 'b',   'j', 'l', 'c', 'f', ';',
-                  'h', 'o', 'e', 't', 'p',   'v', 'n', 's', 'a', 'i',
-                  'q', '.', 'y', 'w', 'k',   'x', 'r', 'm', ',', '/'])),
-    Layer(KeyMap(['Z', 'G', 'U', 'D', 'B',   'J', 'L', 'C', 'F', ':',
-                  'H', 'O', 'E', 'T', 'P',   'V', 'N', 'S', 'A', 'I',
-                  'Q', '>', 'Y', 'W', 'K',   'X', 'R', 'M', '<', '?'])));
-
+                  
 pub static SHAKA3_LAYOUT: Layout = Layout(
     Layer(KeyMap(['z', 'i', 'u', 'c', 'v',   'k', 'd', 'l', ',', '/',
                   'h', 'o', 'e', 's', 'f',   'p', 't', 'n', 'a', 'r',
